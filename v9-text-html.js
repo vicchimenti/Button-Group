@@ -15,8 +15,3 @@
 *       @version 1.1
 */
 
-<div class="prev-next">
-    <!--    <t4 type="navigation" id="171" />-->
-    <hr />
-    <t4 type="navigation" name="Return to previous page" id="690" />
-</div>
