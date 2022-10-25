@@ -2,7 +2,7 @@
 *       @author Victor Chimenti, MSCS
 *       @file v9-text-html.js
 *           Button Group
-*           ID: 5555
+*           ID: 6117
 *           v9/text/html
 *
 *       This content type replaces the depreciated TinyMCE Editor Button Plugin.
