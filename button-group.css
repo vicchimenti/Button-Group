@@ -1,0 +1,195 @@
+.standardContent .btn {
+    white-space: normal;
+    /* override default bootstrap behavior that caused buttons to extend beyond defined columns */
+}
+
+
+.standardContent .btn-attention {
+    background-color: #aa0000;
+    border: 1px solid #333333;
+    border-radius: 0;
+    color: #ffffff;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: 100%;
+    line-height: 1.6rem;
+    margin: 7px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.standardContent .btn-attention:hover,
+.standardContent .btn-attention:focus {
+    background-color: #8e0000;
+    border-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.standardContent .btn-plain {
+    background-color: #e3e3da;
+    border-color: #cccccc;
+    color: #aa0000 !important;
+    text-decoration: none;
+}
+
+.standardContent .btn-plain:hover,
+.standardContent .btn-plain:focus {
+    background-color: #666666;
+    border-color: #333333;
+    color: #ffffff !important;
+}
+
+.standardContent .btn-alpha {
+    background-color: #333333;
+    border-radius: 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.8rem;
+    height: 100%;
+    line-height: 2.4rem;
+    margin: 7px;
+    padding: 15px 45px 15px 15px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+/*[class$="-alpha"]:before, [class*="-alpha"]:before,
+[class$="-alpha"]:after, [class*="-alpha"]:after {
+    color: #333333;
+  font-family: "seattle-u" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  speak: none;
+  top: 2px;
+}
+[class$="-alpha"]:before, [class*="-alpha"]:before{
+  content: "b ";
+}
+[class$="-alpha"]:after, [class*="-alpha"]:after{
+  content: " a";
+}*/
+
+.standardContent .btn-alpha:after {
+    background-color: #333333;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgODAgODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCI+CiAgICA8cGF0aCBkPSJNIDIwIDQwIEwgNjAgNDAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlPSIjMDQ4OTlkIiAvPgogICAgPHBhdGggZD0iTSA1MCAzMCBMIDYwIDQwIDUwIDUwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZT0iIzA0ODk5ZCIgZmlsbD0ibm9uZSIgLz4KICAgIDxwYXRoIGQ9Ik0gNDAgMzAgTCA1MCA0MCA0MCA1MCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2U9IiMwNDg5OWQiIGZpbGw9Im5vbmUiIC8+CiAgICA8cGF0aCBkPSJNIDMwIDMwIEwgNDAgNDAgMzAgNTAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlPSIjMDQ4OTlkIiBmaWxsPSJub25lIiAvPgogICAgPGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iMzUiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlPSIjMDQ4OTlkIiBmaWxsPSJub25lIiAvPgogIDwvc3ZnPg==");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    content: ' ';
+    display: block;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 12px);
+    /* 12px is ~50% of its height) to vertically center it */
+    width: 25px;
+}
+
+.standardContent .btn-alpha:hover,
+.standardContent .btn-alpha:focus {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.callToActionButton a:hover:after {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgODAgODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCI+CiAgICA8Y2lyY2xlIGN4PSI0MCIgY3k9IjQwIiByPSIzNSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2U9IiMwNDg5OWQiIGZpbGw9IiMwNDg5OWQiIC8+CiAgICA8cGF0aCBkPSJNIDIwIDQwIEwgNjAgNDAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlPSIjZmZmZmZmIiAvPgogICAgPHBhdGggZD0iTSA1MCAzMCBMIDYwIDQwIDUwIDUwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZT0iI2ZmZmZmZiIgZmlsbD0ibm9uZSIgLz4KICAgIDxwYXRoIGQ9Ik0gNDAgMzAgTCA1MCA0MCA0MCA1MCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2U9IiNmZmZmZmYiIGZpbGw9Im5vbmUiIC8+CiAgICA8cGF0aCBkPSJNIDMwIDMwIEwgNDAgNDAgMzAgNTAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlPSIjZmZmZmZmIiBmaWxsPSJub25lIiAvPgogIDwvc3ZnPg==");
+}
+
+
+/* when it its own column, take whole width */
+
+@media screen and (max-width:767.999px) {
+    #zoneA.col-xs-12 .standardContent .btn {
+        display: block;
+        margin: 7px 0;
+    }
+}
+
+#zoneB .standardContent .btn,
+#zoneC .standardContent .btn {
+    display: block;
+    margin: 7px 0;
+}
+
+
+/* -------------------------- Arrow Links -------------------------- */
+
+ul.arrowLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: auto auto;
+    padding: 0;
+    width: 100%;
+    /* prevents ULs with less than three items from collapsing */
+}
+
+ul.arrowLinks li {
+    flex: 1 1 100%;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-right: 7px;
+}
+
+ul.arrowLinks li::before {
+    content: none;
+}
+
+.arrowLinks li a {
+    background-color: #ffffff;
+    border: 1px solid #088099;
+    border-radius: 0;
+    color: #aa0000;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: 100%;
+    line-height: 1.6rem;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+#zoneB .arrowLinks li,
+#zonec .arrowLinks li {
+    flex: 1 1 100%;
+    margin-bottom: 15px;
+}
+
+.arrowLinks li a:hover,
+.arrowLinks li a:focus {
+    background: #088099;
+    border: 1px solid #088099;
+    color: #ffffff;
+}
+
+@media (min-width: 992px) {
+    /* md and lg */
+    ul.arrowLinks li {
+        flex: 1 1 calc(33.33% - 7px);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.999px) {
+    /* sm */
+    ul.arrowLinks li {
+        flex: 1 1 calc(50% - 7px);
+    }
+}
